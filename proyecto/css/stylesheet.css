@@ -1,0 +1,61 @@
+#pai div{
+    display: none;
+}
+
+#done div{
+    display: none;
+}
+
+.alerta{
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+    background: green;
+    box-shadow: 0px 1px 3px #ccc;
+    margin-bottom: 15px;
+}
+
+.alerta-error{
+    background: red;
+}
+
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: #0ba331;
+    will-change: left, right;
+}
+
+.tabs .tab a {
+    color: rgb(4 4 4);
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 24px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: color .28s ease, background-color .28s ease;
+    transition: color .28s ease, background-color .28s ease;
+}
+
+.tabs .tab a.active {
+    background-color: transparent;
+    color: #0ba331;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color:  #0ba331;
+}
+
+
+
+h6 {
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 1.0933333333rem 380px 0.656rem 0;
+    font-size: 17px;
+}
+
